@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/arrays-and-strings/string_compression/main.go">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

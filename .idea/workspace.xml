@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8b01f2-5ffe-429f-8069-f7fcbad68ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/one_away/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/one_away/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/one_away/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays-and-strings/string_compression/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays-and-strings/string_compression/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays-and-strings/string_compression/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,67 +55,48 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Test.TestOneAway in programming-problems/arrays-and-strings/one_away">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkCompressString_Attempt1 in programming-problems/arrays-and-strings/string_compression">
+    <configuration name="BenchmarkCompressString_Attempt1 in programming-problems/arrays-and-strings/string_compression" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/arrays-and-strings/is-permutation/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build programming-problems/arrays-and-strings/urlify_a_string" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="programming-problems/arrays-and-strings/urlify_a_string" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/arrays-and-strings/urlify_a_string/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestIsPermutationOfPalindrome/Test_Input in programming-problems/arrays-and-strings/palindrome_permutation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/arrays-and-strings/palindrome_permutation" />
+      <working_directory value="$PROJECT_DIR$/arrays-and-strings/string_compression" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="programming-problems/arrays-and-strings/palindrome_permutation" />
+      <package value="programming-problems/arrays-and-strings/string_compression" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <pattern value="^\QBenchmarkCompressString_Attempt1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCompressString_Attempt1 in programming-problems/arrays-and-strings/string_compression" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="programming-problems" />
+      <working_directory value="$PROJECT_DIR$/arrays-and-strings/string_compression" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="programming-problems/arrays-and-strings/string_compression" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestIsPermutationOfPalindrome\E$/^\QTest_Input\E$" />
+      <pattern value="^\QTestCompressString_Attempt1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestOneAway in programming-problems/arrays-and-strings/one_away" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCompressString_Attempt1/Test_Case_3 in programming-problems/arrays-and-strings/string_compression" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/arrays-and-strings/one_away" />
+      <working_directory value="$PROJECT_DIR$/arrays-and-strings/string_compression" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="programming-problems/arrays-and-strings/one_away" />
+      <package value="programming-problems/arrays-and-strings/string_compression" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestOneAway\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestUrlify in programming-problems/arrays-and-strings/urlify_a_string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/arrays-and-strings/urlify_a_string" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="programming-problems/arrays-and-strings/urlify_a_string" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestUrlify\E$" />
+      <pattern value="^\QTestCompressString_Attempt1\E$/^\QTest_Case_3\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestOneAway in programming-problems/arrays-and-strings/one_away" />
-        <item itemvalue="Go Test.TestIsPermutationOfPalindrome/Test_Input in programming-problems/arrays-and-strings/palindrome_permutation" />
-        <item itemvalue="Go Test.TestUrlify in programming-problems/arrays-and-strings/urlify_a_string" />
-        <item itemvalue="Go Build.go build programming-problems/arrays-and-strings/urlify_a_string" />
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.BenchmarkCompressString_Attempt1 in programming-problems/arrays-and-strings/string_compression" />
+        <item itemvalue="Go Test.TestCompressString_Attempt1 in programming-problems/arrays-and-strings/string_compression" />
+        <item itemvalue="Go Test.TestCompressString_Attempt1/Test_Case_3 in programming-problems/arrays-and-strings/string_compression" />
       </list>
     </recent_temporary>
   </component>

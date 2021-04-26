@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8b01f2-5ffe-429f-8069-f7fcbad68ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/rotate_matrix/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/rotate_matrix/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/rotate_matrix/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays-and-strings/string_rotation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays-and-strings/string_rotation/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays-and-strings/string_rotation/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays-and-strings/zero_matrix/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays-and-strings/zero_matrix/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays-and-strings/zero_matrix/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,66 +52,51 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-tutorials" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Test.go test programming-problems/arrays-and-strings/rotate_matrix">
-    <configuration name="BenchmarkCompressString_Attempt1 in programming-problems/arrays-and-strings/string_compression" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestIsRotation in programming-problems/arrays-and-strings/string_rotation">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/arrays-and-strings/string_compression" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="programming-problems/arrays-and-strings/string_compression" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmarkCompressString_Attempt1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCompressString_Attempt1 in programming-problems/arrays-and-strings/string_compression" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/arrays-and-strings/string_compression" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="programming-problems/arrays-and-strings/string_compression" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCompressString_Attempt1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCompressString_Attempt1/Test_Case_3 in programming-problems/arrays-and-strings/string_compression" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/arrays-and-strings/string_compression" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="programming-problems/arrays-and-strings/string_compression" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCompressString_Attempt1\E$/^\QTest_Case_3\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRotateMartix_Attempt1 in main_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/arrays-and-strings/rotate_matrix" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/arrays-and-strings/rotate_matrix/main_test.go" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRotateMartix_Attempt1\E$" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test programming-problems/arrays-and-strings/rotate_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIsRotation in programming-problems/arrays-and-strings/string_rotation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/arrays-and-strings/rotate_matrix" />
+      <working_directory value="$PROJECT_DIR$/arrays-and-strings/string_rotation" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="programming-problems/arrays-and-strings/rotate_matrix" />
+      <package value="programming-problems/arrays-and-strings/string_rotation" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestIsRotation\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestZeroMatrix_Attempt1 in programming-problems/arrays-and-strings/zero_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="programming-problems" />
+      <working_directory value="$PROJECT_DIR$/arrays-and-strings/zero_matrix" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="programming-problems/arrays-and-strings/zero_matrix" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestZeroMatrix_Attempt1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="programming-problems" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -116,11 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test programming-problems/arrays-and-strings/rotate_matrix" />
-        <item itemvalue="Go Test.TestRotateMartix_Attempt1 in main_test.go" />
-        <item itemvalue="Go Test.BenchmarkCompressString_Attempt1 in programming-problems/arrays-and-strings/string_compression" />
-        <item itemvalue="Go Test.TestCompressString_Attempt1 in programming-problems/arrays-and-strings/string_compression" />
-        <item itemvalue="Go Test.TestCompressString_Attempt1/Test_Case_3 in programming-problems/arrays-and-strings/string_compression" />
+        <item itemvalue="Go Test.TestIsRotation in programming-problems/arrays-and-strings/string_rotation" />
+        <item itemvalue="Go Test.TestZeroMatrix_Attempt1 in programming-problems/arrays-and-strings/zero_matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +123,11 @@
           <url>file://$PROJECT_DIR$/arrays-and-strings/palindrome_permutation/main.go</url>
           <line>40</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arrays-and-strings/zero_matrix/main.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

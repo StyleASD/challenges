@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8b01f2-5ffe-429f-8069-f7fcbad68ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/string_rotation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/string_rotation/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/string_rotation/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/zero_matrix/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/zero_matrix/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrays-and-strings/zero_matrix/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-lists/singly-linked-list.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,14 +52,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Test.TestIsRotation in programming-problems/arrays-and-strings/string_rotation">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+  <component name="RunManager" selected="Go Build.go build singly-linked-list.go">
+    <configuration name="go build singly-linked-list.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="programming-problems" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/linked-lists/singly-linked-list.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestIsRotation in programming-problems/arrays-and-strings/string_rotation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -92,20 +85,11 @@
       <pattern value="^\QTestZeroMatrix_Attempt1\E$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestIsRotation in programming-problems/arrays-and-strings/string_rotation" />
+        <item itemvalue="Go Build.go build singly-linked-list.go" />
         <item itemvalue="Go Test.TestZeroMatrix_Attempt1 in programming-problems/arrays-and-strings/zero_matrix" />
+        <item itemvalue="Go Test.TestIsRotation in programming-problems/arrays-and-strings/string_rotation" />
       </list>
     </recent_temporary>
   </component>

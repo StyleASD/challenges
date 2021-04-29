@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8b01f2-5ffe-429f-8069-f7fcbad68ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linked-lists/find-kth-to-last/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-lists/find-kth-to-last/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-lists/find-kth-to-last/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-lists/find-kth-to-last/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/find-kth-to-last/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-lists/find-kth-to-last/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/find-kth-to-last/main_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +143,11 @@
           <url>file://$PROJECT_DIR$/linked-lists/remove_dupes/main.go</url>
           <line>30</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/linked-lists/find-kth-to-last/main.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

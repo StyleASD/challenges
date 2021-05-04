@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8b01f2-5ffe-429f-8069-f7fcbad68ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linked-lists/partition/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-lists/partition/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-lists/partition/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-lists/sum_lists/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-lists/sum_lists/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-lists/sum_lists/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Test.TestPartition_Attempt1 in programming-problems/linked-lists/partition">
+  <component name="RunManager" selected="Go Test.TestSumList_Attempt1 in programming-problems/linked-lists/sum_lists">
     <configuration name="go build singly-linked-list.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="programming-problems" />
       <working_directory value="$PROJECT_DIR$" />
@@ -99,25 +99,25 @@
       <pattern value="^\QTestRemoveDupes_FirstAttempt\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestZeroMatrix_Attempt1 in programming-problems/arrays-and-strings/zero_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSumList_Attempt1 in programming-problems/linked-lists/sum_lists" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/arrays-and-strings/zero_matrix" />
+      <working_directory value="$PROJECT_DIR$/linked-lists/sum_lists" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="programming-problems/arrays-and-strings/zero_matrix" />
+      <package value="programming-problems/linked-lists/sum_lists" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestZeroMatrix_Attempt1\E$" />
+      <pattern value="^\QTestSumList_Attempt1\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSumList_Attempt1 in programming-problems/linked-lists/sum_lists" />
         <item itemvalue="Go Test.TestPartition_Attempt1 in programming-problems/linked-lists/partition" />
         <item itemvalue="Go Test.TestFindKthToLast_Attempt1 in programming-problems/linked-lists/find-kth-to-last" />
         <item itemvalue="Go Test.TestRemoveDupes_FirstAttempt in programming-problems/linked-lists/remove_dupes" />
         <item itemvalue="Go Build.go build singly-linked-list.go" />
-        <item itemvalue="Go Test.TestZeroMatrix_Attempt1 in programming-problems/arrays-and-strings/zero_matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -158,8 +158,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/linked-lists/partition/main.go</url>
-          <line>27</line>
+          <line>25</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/linked-lists/sum_lists/main.go</url>
+          <line>50</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/linked-lists/sum_lists/main.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/linked-lists/sum_lists/main.go</url>
+          <line>45</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

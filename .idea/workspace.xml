@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8b01f2-5ffe-429f-8069-f7fcbad68ffe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/linked-lists/palindrome/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-lists/palindrome/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-lists/palindrome/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-lists/sum_lists/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/sum_lists/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-lists/sum_lists/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/sum_lists/main_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Test.TestSumListForward_Attempt1 in programming-problems/linked-lists/sum_lists">
+  <component name="RunManager" selected="Go Test.TestPalindrome_Attempt1 in programming-problems/linked-lists/palindrome">
     <configuration name="TestFindKthToLast_Attempt1 in programming-problems/linked-lists/find-kth-to-last" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="programming-problems" />
       <working_directory value="$PROJECT_DIR$/linked-lists/find-kth-to-last" />
@@ -66,6 +67,18 @@
       <pattern value="^\QTestFindKthToLast_Attempt1\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestPalindrome_Attempt1 in programming-problems/linked-lists/palindrome" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="programming-problems" />
+      <working_directory value="$PROJECT_DIR$/linked-lists/palindrome" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="programming-problems/linked-lists/palindrome" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestPalindrome_Attempt1\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestPartition_Attempt1 in programming-problems/linked-lists/partition" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="programming-problems" />
       <working_directory value="$PROJECT_DIR$/linked-lists/partition" />
@@ -76,18 +89,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestPartition_Attempt1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRemoveDupes_FirstAttempt in programming-problems/linked-lists/remove_dupes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/linked-lists/remove_dupes" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="programming-problems/linked-lists/remove_dupes" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRemoveDupes_FirstAttempt\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSumListForward_Attempt1 in programming-problems/linked-lists/sum_lists" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestPalindrome_Attempt1 in programming-problems/linked-lists/palindrome" />
         <item itemvalue="Go Test.TestSumListForward_Attempt1 in programming-problems/linked-lists/sum_lists" />
         <item itemvalue="Go Test.TestSumList_Attempt1 in programming-problems/linked-lists/sum_lists" />
         <item itemvalue="Go Test.TestPartition_Attempt1 in programming-problems/linked-lists/partition" />
         <item itemvalue="Go Test.TestFindKthToLast_Attempt1 in programming-problems/linked-lists/find-kth-to-last" />
-        <item itemvalue="Go Test.TestRemoveDupes_FirstAttempt in programming-problems/linked-lists/remove_dupes" />
       </list>
     </recent_temporary>
   </component>
@@ -180,9 +181,9 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/linked-lists/sum_lists/main.go</url>
-          <line>113</line>
-          <option name="timeStamp" value="36" />
+          <url>file://$PROJECT_DIR$/linked-lists/palindrome/main.go</url>
+          <line>52</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

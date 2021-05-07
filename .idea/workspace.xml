@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8b01f2-5ffe-429f-8069-f7fcbad68ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linked-lists/palindrome/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-lists/palindrome/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-lists/palindrome/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-lists/intersection/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-lists/intersection/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-lists/intersection/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-lists/doubly.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/doubly.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-lists/linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/linked_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-lists/palindrome/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/palindrome/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-lists/singly.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/singly.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +58,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Test.TestPalindrome_Attempt1 in programming-problems/linked-lists/palindrome">
-    <configuration name="TestFindKthToLast_Attempt1 in programming-problems/linked-lists/find-kth-to-last" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestIntersection_Attempt1 in programming-problems/linked-lists/intersection">
+    <configuration name="TestIntersection_Attempt1 in programming-problems/linked-lists/intersection" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="programming-problems" />
-      <working_directory value="$PROJECT_DIR$/linked-lists/find-kth-to-last" />
+      <working_directory value="$PROJECT_DIR$/linked-lists/intersection" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="programming-problems/linked-lists/find-kth-to-last" />
+      <package value="programming-problems/linked-lists/intersection" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestFindKthToLast_Attempt1\E$" />
+      <pattern value="^\QTestIntersection_Attempt1\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestPalindrome_Attempt1 in programming-problems/linked-lists/palindrome" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -117,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestIntersection_Attempt1 in programming-problems/linked-lists/intersection" />
         <item itemvalue="Go Test.TestPalindrome_Attempt1 in programming-problems/linked-lists/palindrome" />
         <item itemvalue="Go Test.TestSumListForward_Attempt1 in programming-problems/linked-lists/sum_lists" />
         <item itemvalue="Go Test.TestSumList_Attempt1 in programming-problems/linked-lists/sum_lists" />
         <item itemvalue="Go Test.TestPartition_Attempt1 in programming-problems/linked-lists/partition" />
-        <item itemvalue="Go Test.TestFindKthToLast_Attempt1 in programming-problems/linked-lists/find-kth-to-last" />
       </list>
     </recent_temporary>
   </component>
@@ -181,9 +185,9 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/linked-lists/palindrome/main.go</url>
-          <line>52</line>
-          <option name="timeStamp" value="40" />
+          <url>file://$PROJECT_DIR$/linked-lists/intersection/main.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

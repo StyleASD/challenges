@@ -16,13 +16,13 @@ func NewDoublyLinkedList(data ...int) *DoublyLinkedList {
 	list := &DoublyLinkedList{Length: 0}
 
 	for _, datum := range data {
-		list.AppendNode(datum)
+		list.AppendData(datum)
 	}
 
 	return list
 }
 
-func (dll *DoublyLinkedList) AppendNode(data int) {
+func (dll *DoublyLinkedList) AppendData(data int) {
 	end := &DoubleNode{Data: data, Prev: dll.Tail, Next: nil}
 
 	dll.Length++;

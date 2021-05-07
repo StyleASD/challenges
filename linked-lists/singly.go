@@ -15,19 +15,34 @@ func NewSinglyLinkedList(data ...int) *SinglyLinkedList {
 	list := &SinglyLinkedList{Length: 0}
 
 	for _, datum := range data {
-		list.AppendNode(datum)
+		list.AppendData(datum)
 	}
 
 	return list
 }
 
-func (sll *SinglyLinkedList) AppendNode(data int) {
+/*
+	Note there is a bug in this implementation if we have intersecting linked lists. This will work correctly for the
+	list calling the end but the tail will be incorrect for another linked list with intersecting nodes.
+ */
+func (sll *SinglyLinkedList) AppendNode(end *SingleNode) {
+	sll.Length++
+	if sll.Head == nil {
+		sll.Head = end
+	} else {
+		sll.Tail.Next = end // Set Tail to be the new element
+	}
+
+	sll.Tail = end
+}
+
+func (sll *SinglyLinkedList) AppendData(data int) {
 	var end = &SingleNode{Data: data, Next: nil}
 
 	sll.Length++
 	if sll.Head == nil {
 		sll.Head = end
-	} else  {
+	} else {
 		sll.Tail.Next = end // Set Tail to be the new element
 	}
 

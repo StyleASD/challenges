@@ -50,5 +50,6 @@ func Palindrome_Attempt1(sll linked_lists.SinglyLinkedList) bool {
 		currentNode = currentNode.Next
 	}
 
+
 	return true
 }

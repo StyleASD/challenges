@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
 
 }
@@ -22,7 +26,7 @@ func (s StackNo) isValid() bool {
 */
 type ThreeInOne_Attempt1 struct {
 	stack         [...]int
-	count         [...]int
+	sizes         [...]int
 	stackCapacity int
 }
 
@@ -34,13 +38,81 @@ func NewThreeInOne_Attempt1(stackCapacity int) *ThreeInOne_Attempt1 {
 	return &ThreeInOne_Attempt1{
 		stackCapacity: stackCapacity,
 		stack:         make([...]int, stackCapacity*3),
-		count:         make([...]int, 3),
+		sizes:         make([...]int, 3),
 	}
 }
 
-func (t ThreeInOne_Attempt1) Pop(stack StackNo) interface{} {
+func (t *ThreeInOne_Attempt1) Push(data int, stack StackNo) error {
+	if isFull, err := t.isFull(stack); isFull || err != nil {
+		return err
+	}
+
+	// Increment stack pointer
+	t.sizes[stack]++
+
+	// Update the top value
+	if pos, err := t.getTopIndex(stack); err == nil {
+		t.stack[pos] = data
+	}
+
+	return nil
+}
+
+func (t *ThreeInOne_Attempt1) Pop(stack StackNo) (int, error) {
+	if empty, err := t.IsEmpty(stack); empty || err != nil {
+		return 0, err
+	}
+
+	pos, _ := t.getTopIndex(stack)
+
+	data := t.stack[pos]
+	t.stack[pos] = 0 // Clear the stack
+	t.sizes[stack]--
+
+	return data, nil
+}
+
+func (t *ThreeInOne_Attempt1) Peek(stack StackNo) (int, error) {
+	if empty, err := t.IsEmpty(stack); empty || err != nil {
+		return 0, err
+	}
+
+	pos, _ := t.getTopIndex(stack)
+	return t.stack[pos], nil
+}
+
+func (t *ThreeInOne_Attempt1) IsEmpty(stack StackNo) (bool, error) {
+	if err := validStack(stack); err != nil {
+		return true, err
+	}
+
+	return t.sizes[stack] == 0, nil
+}
+
+func (t *ThreeInOne_Attempt1) isFull(stack StackNo) (bool, error) {
+	if err := validStack(stack); err != nil {
+		return true, err
+	}
+
+	return t.sizes[stack] == t.stackCapacity, nil
+}
+
+/**
+ */
+func (t *ThreeInOne_Attempt1) getTopIndex(stack StackNo) (int, error) {
+	if err := validStack(stack); err != nil {
+		return -1, err
+	}
+
+	offset := t.stackCapacity * int(stack)
+	size := t.sizes[stack]
+
+	return offset + size - 1, nil
+}
+
+func validStack(stack StackNo) error {
 	if !stack.isValid() {
-		return nil
+		return fmt.Errorf("Value %i is not a valid stack", stack)
 	}
 
 	return nil

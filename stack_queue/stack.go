@@ -6,7 +6,7 @@ type Stack struct {
 	last *Node
 }
 
-func (s Stack) pop() *Node {
+func (s Stack) Pop() *Node {
 	if s.Head == nil {
 		return nil
 	}
@@ -18,7 +18,7 @@ func (s Stack) pop() *Node {
 	return current
 }
 
-func (s Stack) push(data int) {
+func (s Stack) Push(data int) {
 	node := NewNode(data)
 	if s.Head == nil {
 		s.Head = node
@@ -30,7 +30,7 @@ func (s Stack) push(data int) {
 	s.last = node
 }
 
-func (s Stack) peek() *Node {
+func (s Stack) Peek() *Node {
 	if s.Head == nil {
 		return nil
 	}
@@ -38,6 +38,6 @@ func (s Stack) peek() *Node {
 	return s.Head
 }
 
-func (s Stack) isEmpty() bool {
+func (s Stack) IsEmpty() bool {
 	return s.Head == nil
 }

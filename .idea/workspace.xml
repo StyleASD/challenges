@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8b01f2-5ffe-429f-8069-f7fcbad68ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stack_queue/queue_via_stack/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack_queue/queue_via_stack/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack_queue/sort_stack/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack_queue/sort_stack/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_queue/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/stack_queue/stack.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -41,7 +43,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />

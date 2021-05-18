@@ -6,6 +6,10 @@ type Stack struct {
 	last *Node
 }
 
+func NewStack() *Stack {
+	return &Stack{}
+}
+
 func (s Stack) Pop() *Node {
 	if s.Head == nil {
 		return nil
